@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="annotation_demo.grouping_demo"/>
+      <class name="annotation_demo.allannotation"/>
+      <class name="annotation_demo.assertion2_demo"/>
+      <class name="annotation_demo.disable_demo"/>
+      <class name="annotation_demo.test3"/>
+      <class name="annotation_demo.priority_demo"/>
+      <class name="annotation_demo.test1"/>
+      <class name="annotation_demo.test2"/>
+      <class name="annotation_demo.dataprovider_demo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
